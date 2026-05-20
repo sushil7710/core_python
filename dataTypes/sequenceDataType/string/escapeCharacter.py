@@ -1,6 +1,8 @@
 # #Escape character: in python escape character is a special type of character which have their own special function.
-# # ======1.\n=================
-# #\n: it breaks the line and switch to next.
+
+"""======1.\n================="""
+
+#\n: it breaks the line and switch to next.
 # # it only work for string.
 # #example:
 # print("College\nname ") 
@@ -10,8 +12,8 @@
 # """
 # print(5,"\n", 3, sep="")  # sep="" it removes extra space
 # """Output:print in one line vertically {
-#             5              
-#             3             
+            # 5              
+            # 3             
                             
 # }"""
 # print(5,6,8,sep="+") #Output:5+6+8
@@ -45,8 +47,9 @@
 # """
 # print(a,b,c, sep="*")   #output=5*4*3. #it seperated the data by using asterik(*)
 
-# #=========== 2. carriage retun (\r)==========
-# #Carriage return: It moves the cursor to the beginning of the same line without moving to the next line.
+"""=========== 2. carriage retun (\r)=========="""
+
+#Carriage return: It moves the cursor to the beginning of the same line without moving to the next line.
 
 # print("Hel\ro")  #oel
 # print("stud\rent") #entd
@@ -61,7 +64,9 @@
 # print("univer\rsity")
 
 
-# ===3. \t (tab): it provides four in single line.
+""" ===3. \t (tab)==="""
+
+ #: it provides four in single line.
 # print("hel\t o")
 # print("12589\tram")
 # print("sajha\tTech")
@@ -69,7 +74,7 @@
 # print("univer\tsity")
 
 # ====4.\v vertical space: it provides vertical space.
-print("He\vllo")
+# print("He\vllo")
 # print("12589\vram")
 # print("sajha\vTech")              
 # print("lap\vtop")

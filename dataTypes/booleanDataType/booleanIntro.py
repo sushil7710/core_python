@@ -1,5 +1,5 @@
 """B.)======= Boolen Datatype======
-# defination: bollen is a data tyoes which is used to defined TRUE or FALSE statement
+# defination: bollen is a data types which is used to defined TRUE or FALSE statement
 # example :
 # ispassed=True
 # isfailed=False

@@ -74,15 +74,15 @@
 # example:
 
 # A=5
-# print("the value of A is:",A)   #the value of A is: 5 
+# print("the value of A is: ",A)   #the value of A is: 5 
 
 
 # Age=26
-# print("My age is:",Age)   #My age is: 26
+# print("My age is: ",Age)   #My age is: 26
 
 
 # price=260
-# print("the price is:",price)    #the price is: 260
+# print("the price is: ",price)    #the price is: 260
 
 
 """
@@ -111,13 +111,13 @@ number=[45,1,50.56,65,56,78,98,1,2]
 number.append(9)
 number.insert(2, "ram")
 number.insert(0, 49)
-
-# fruits=
-# fruits[0]=1.   #. index zero ma 1 value rakheko apple ko place ma replace garera
-# print(fruits)
-# print(fruits[0], fruits[3]) 
-# print(fruits[3:1])
-# print(type(fruits))
+print(fruits)
+print(fruits[3:1])
+fruits[0]=1   #. index zero ma 1 value rakheko apple ko place ma replace garera
+print(fruits)
+print(fruits[0], fruits[3]) 
+print(fruits[3:1])
+print(type(fruits))
 print(number)
 print(type(number))
 
