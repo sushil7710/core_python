@@ -276,72 +276,368 @@ s ="welcome to nepal"
 # after that covert name in uppercase,lowercase,capitalize,title.result must print be using f string. 
 
 
-name1 = input("enter the 1st actor name: ")
-age1 = int(input("enter the 1st actor age: "))
+# name1 = input("enter the 1st actor name: ")
+# age1 = int(input("enter the 1st actor age: "))
 
-print(f"the 1st actor name is: {name1}")
-print(f"his age is {age1}")
-print(type(name1))
-print(type(age1))
-print(name1.upper())
-print(name1.lower())
-print(name1.title())
-print(name1.capitalize())
-
-
-name2 = input("enter the 2nd actor name: ")
-age2 = int(input("enter the 2cd actor age: "))
-
-print(f"the 2nd actor name is: {name2}")
-print(f"his age is {age2}")
-print(type(name2))
-print(type(age2))
-print(name2.upper())
-print(name2.lower())
-print(name2.title())
-print(name2.capitalize())
+# print(f"the 1st actor name is: {name1}")
+# print(f"his age is {age1}")
+# print(type(name1))
+# print(type(age1))
+# print(name1.upper())
+# print(name1.lower())
+# print(name1.title())
+# print(name1.capitalize())
 
 
+# name2 = input("enter the 2nd actor name: ")
+# age2 = int(input("enter the 2cd actor age: "))
 
-name3 = input("enter the 3rd actor name: ")
-age3 = int(input("enter the 3rd actor age: "))
-print(f"the 3rd actor name is: {name3}")
-print(f"his age is {age3}")
-print(type(name3))
-print(type(age3))
-print(name3.upper())
-print(name3.lower())
-print(name3.title())
-print(name3.capitalize())
-
-
-name4 = input("enter the 4th actor name: ")
-age4 = int(input("enter the 4th actor age: "))
-print(f"the 4th actor name is: {name4}")
-print(f"his age is {age4}")
-print(type(name4))
-print(type(age4))
-print(name4.upper())
-print(name4.lower())
-print(name4.title())
-print(name4.capitalize())
+# print(f"the 2nd actor name is: {name2}")
+# print(f"his age is {age2}")
+# print(type(name2))
+# print(type(age2))
+# print(name2.upper())
+# print(name2.lower())
+# print(name2.title())
+# print(name2.capitalize())
 
 
 
-name5 = input("enter the 5th actor name: ")
-age5 = int(input("enter the 5th actor age: "))
-print(f"the 5th actor name is: {name4}")
-print(f"his age is {age5}")
-print(type(name5))
-print(type(age5))
-print(name5.upper())
-print(name5.lower())
-print(name5.title())
-print(name5.capitalize())
+# name3 = input("enter the 3rd actor name: ")
+# age3 = int(input("enter the 3rd actor age: "))
+# print(f"the 3rd actor name is: {name3}")
+# print(f"his age is {age3}")
+# print(type(name3))
+# print(type(age3))
+# print(name3.upper())
+# print(name3.lower())
+# print(name3.title())
+# print(name3.capitalize())
+
+
+# name4 = input("enter the 4th actor name: ")
+# age4 = int(input("enter the 4th actor age: "))
+# print(f"the 4th actor name is: {name4}")
+# print(f"his age is {age4}")
+# print(type(name4))
+# print(type(age4))
+# print(name4.upper())
+# print(name4.lower())
+# print(name4.title())
+# print(name4.capitalize())
+
+
+
+# name5 = input("enter the 5th actor name: ")
+# age5 = int(input("enter the 5th actor age: "))
+# print(f"the 5th actor name is: {name4}")
+# print(f"his age is {age5}")
+# print(type(name5))
+# print(type(age5))
+# print(name5.upper())
+# print(name5.lower())
+# print(name5.title())
+# print(name5.capitalize())
 
 
 # print(f" the first actor name is {name1}| his age is {age1} | name1 Type: {type(name1)} | age1 type:{type(age1)} | upper: {name1.upper()} | lower: {name1.lower()} | capitalize: {name1.capitalize()} | Title: {name1.title()}")
 
 # print(f"the 2nd actor namee is{name2}| and his age is{age2}| name2 type: {type(name2)}| age2 type: {type(age2)} | upper: {name2.upper()} |lower: {name2.lower()}| capitalize: {name2.capitalize()}| title: {name2.title}")
+
+
+
+""""
+==========(Qn) related to (spilt and join) function  ===========
+
+"""
+
+"""
+Q1. Full Name Split Program
+
+Write a Python program that:
+
+Takes full name from user
+Uses split()
+Prints first name and last name separately
+
+firstName: sushil
+LastName : singh
+"""
+
+# name = input("Enter your full name: ")
+# result = name.split(" ")
+
+# print(result)
+# print("first name: ", result[0])
+# print("last name : ", result[1])
+
+# #print by using f
+# print(f"my name is{result}")
+# print(f"first name: {result[0]}")
+# print(f"last name: {result[1]}")
+
+
+"""Q2. Email Analyzer Program
+
+Write a Python program that:
+
+Takes email from user
+Uses split("@")
+Prints username and domain name separately
+"""
+
+# email = input("enter your email: ")
+# result = email.split("@")
+
+# print(result)
+# print("user_name: ", result[0])
+# print("domain_name: ", result[1])
+
+# # #print by using f
+# print(f"my email_id: {result}")
+# print(f"user_name: {result[0]}")
+# print(f"domain_name: {result[1]}")
+
+
+
+
+"""
+Q3. Website Name Extractor
+
+Write a Python program that:
+
+Takes website URL from user
+Uses split(".")
+Prints website name only
+"""
+# URL = input("enter the website URL: ")      #input: www.google.com
+# result = URL.split(".")
+
+# print(result)       #output: ['www', 'google', 'com']
+# print("website_name: ", result[1])      #output: google
+
+# #print by using f
+# print(f"website_name: {result}")
+# print(f"website_name: {result[1]}")
+
+
+"""
+Q4. Word Join Program
+
+Write a Python program that:
+
+Takes 3 words from user
+Stores them in list
+Uses join()
+Joins all words with space
+"""
+
+# list1 = input("enter the 1st word: ")
+# list2 = input("enter the 2nd word: ")
+# list3 = input("enter the 3rd word: ")
+
+# list = [list1, list2, list3]
+
+# result =" ".join(list)
+# print("join all words with space: ",result)
+
+
+"""
+Q5. CSV Data Split Program
+
+Write a Python program that:
+
+Takes comma-separated values from user
+Uses split(",")
+Prints each value separately
+"""
+# Data = input("enter comma separated value: ")           #input: apple,orange,mango,papaya
+
+# result = Data.split(",")
+
+# print("seperate value are", result[0], result[1], result[2], result[3])         #output:  apple orange mango papaya
+
+# print(f"Seprate value are: {result[0]} {result[1]} {result[2]} {result[3]}")         #output:  apple orange mango papaya
+
+# print(f"seperate value are: \n{result[0]}\n{result[1]}\n{result[2]}\n{result[3]}")   #output: apple 
+# #                                                                                             orange 
+# #                                                                                             mango 
+# #                                                                                             papaya     
+
+# print(f"seperate value are: \n{result[0]} \n{result[1]} \n{result[2]} \n{result[3]}")     #output: apple 
+# #                                                                                                  orange 
+# #                                                                                                  mango 
+# #                                                                                                  papaya  
+
+
+
+"""
+    =============removing space (strip,lstrip,rstrip) related qn============
+Q1. Clean Name Input Program (strip)
+Write a Python program that:
+Takes a name from user with extra spaces
+Removes spaces from both sides using strip()
+"""
+# name = input("enter your name:")            #input:          Sushil   Singh
+# result = name.strip()
+# print("after removing space: ",result)      #output: Sushil   Singh 
+
+
+
+"""
+Q2. Remove Left Side Spaces (lstrip)
+Write a program that:
+Takes input with left spaces
+Removes only left side spaces
+# """
+# name = "          Sushil          "
+
+# result = name.lstrip()
+
+# print("after removing space from left side only:",result)
+
+
+
+"""
+Q3. Remove Right Side Spaces (rstrip)
+Write a program that:
+Takes input with right spaces
+Removes only right side spaces
+"""
+# name = "          Sushil          "
+
+# result = name.rstrip()
+
+# print("after removing space from right side: ",result)
+
+
+
+"""
+Q4. Username Cleaner (strip + length)
+Write a program that:
+Takes username with extra spaces
+Removes spaces using strip()
+Prints cleaned username and its length
+"""
+# user_name = input("enter your user name: ")         #input:        Sushil
+
+# result = user_name.strip()
+
+# print("cleaned user_name :", result)
+# print("Length of user_name:",len(user_name),"\n","length of cleaned name:", len(result), sep="")
+
+#output:cleaned user_name : Sushil
+#       Length of user_name:12
+#       length of cleaned name:6
+
+
+"""
+Q5. Password Space Checker (strip logic)
+Write a program that:
+Takes password input
+Removes spaces using strip()
+Checks if password was changed after removing spaces
+"""
+password = input("enter the password: ")
+
+result = 
+
+
+
+
+
+
+
+
+"""
+=========suffix related qn =============
+"""
+
+""""
+Q1. Remove prefix from website
+
+Given string: "www.facebook.com"
+Apply removeprefix("www.")
+
+Result: facebook.com
+"""
+# URL= "www.facebook.com"       
+
+# remove_prefix = URL.removeprefix("www.")
+
+# print("after removing prefix:",remove_prefix)       #result: facebook.com
+
+
+
+"""
+Q2. Remove suffix from domain
+
+Given string: "google.com"
+Apply removesuffix(".com")
+
+Result: google
+"""
+# Website = "google.com"
+
+# remove_suffix = Website.removesuffix(".com")
+
+# print("after remove Suffix:", remove_suffix)        #output: google
+
+
+
+"""
+Q3. Remove title prefix
+
+Given string: "Mr. Saroj"
+Apply removeprefix("Mr. ")
+
+Result: Saroj
+"""
+# name = "Mr.Saroj"
+
+# remove_prefix = name.removeprefix("Mr.")
+
+# print("after removing title prefix:",remove_prefix)     #outpput: Saroj
+
+
+
+
+"""
+Q4. Remove file extension
+
+Given string: "notes.txt"
+Apply removesuffix(".txt")
+
+Result: notes
+"""
+# text = "notes.txt"
+
+# remove_suffix = text.removesuffix(".txt")
+
+# print("after removing suffix:", remove_suffix)      #outpt: notes
+
+
+
+
+"""
+Q5. Remove both prefix and suffix
+
+Given string: "www.python.org"
+Apply removeprefix("www.") and removesuffix(".org")
+
+Result: python
+"""
+# URL = "www.python.org"
+
+# result = URL.removeprefix("www.").removesuffix(".org")
+
+# print("after removing prefix and suffix:",result)       #output: python
+
+
+a = 5
+
+b = 3 
+
+
 
 

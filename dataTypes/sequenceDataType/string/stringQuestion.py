@@ -51,5 +51,22 @@ position
 
 # print(position,type(position))
 
-a=4
-b=5
+# a=4
+# b=5
+
+# a, b= b ,a
+# print(a)
+# print(b)
+
+
+# a = 4
+# b = 5
+
+# a, b = b, a
+
+# print(a)
+# print(b)
+
+
+name = "sushil"
+print(name.swapcase())

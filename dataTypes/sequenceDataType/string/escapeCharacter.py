@@ -67,7 +67,7 @@
 """ ===3. \t (tab)==="""
 
  #: it provides four in single line.
-# print("hel\t o")
+# print("hel\to")
 # print("12589\tram")
 # print("sajha\tTech")
 # print("lap\ttop")

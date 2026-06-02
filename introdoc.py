@@ -45,6 +45,9 @@
 
 
 
+
+
+
 # example:
 # 
 #print("hellow world")
@@ -66,6 +69,7 @@
 # example:
      #woke up, life
 #============types of Data===============
+
 
 # A. =====numeric data types=====
 """
@@ -106,21 +110,62 @@
 #2.)=======list======
 # list is a sequencial data types  which is mutable(changeable), and in ordered
 # list can be always  written in [] in python
-fruits=["apple","banana","orange","papaya"]
+# fruits=["apple","banana","orange","papaya"]
 number=[45,1,50.56,65,56,78,98,1,2]
 number.append(9)
-number.insert(2, "ram")
-number.insert(0, 49)
-print(fruits)
-print(fruits[3:1])
-fruits[0]=1   #. index zero ma 1 value rakheko apple ko place ma replace garera
-print(fruits)
-print(fruits[0], fruits[3]) 
-print(fruits[3:1])
-print(type(fruits))
+# number.insert(2, "ram")
+# number.insert(0, 49)
+# print(fruits)
+# fruits[0]=1   #. index zero ma 1 value rakheko apple ko place ma replace garera
+# print(fruits)
+# print(fruits[0], fruits[3]) 
+# fruits.insert(0,1)
+# print(fruits)
+# print(type(fruits))
 print(number)
-print(type(number))
+# print(type(number))
 
 
 
 
+
+# restaurent_name = "xxavier college"
+# college_name = "chiya khaja ghar"
+
+
+# address_name = college_name
+
+# college_name = restaurent_name
+
+# resturent_name = address_name
+ 
+# print(restaurent_name)
+# print(college_name)
+
+
+
+# restaurent_name = "xxavier college"
+# college_name = "chiya khaja ghar"
+
+# temp =college_name
+# college_name = restaurent_name
+# restaurent_name = temp
+
+
+# print(restaurent_name)
+# print(college_name)
+
+
+#
+# place ="kathmandu"
+
+# capital ="lalitputr"
+
+# temp = capital
+
+# capital = place 
+
+# place =temp
+
+# print(place)
+# print(capital)
