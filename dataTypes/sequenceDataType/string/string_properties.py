@@ -1,8 +1,11 @@
 """
-=========strinh property=========
+=========string property=========
 """
 
-#1.) concatination property(+):it join the two string.
+"""
+1.) concatination property(+):
+                                it join the two string.
+"""
 #Syntax:
     # var1+ var2
 #in above syntax there  is a two variable and it is concatenated (join) with (+)symbol
@@ -134,19 +137,19 @@ Slicing:
 
 # Q.1) .Write a program to take a string from the user and print the first character, second character, and last character using indexing.
 
-address = input("enter your address: ")           #input: Dhangadhi
+# address = input("enter your address: ")           #input: Dhangadhi
 
-print("the ist character of your Address is: ",address[0:1])       #output: D
-print("the 2nd  character of your Address is: ",address[1:2])       #output:h
-print("the 3rd character of your Address is: ",address[8:])        #output:i
+# print("the ist character of your Address is: ",address[0:1])       #output: D
+# print("the 2nd  character of your Address is: ",address[1:2])       #output:h
+# print("the last character of your Address is: ",address[8:])        #output:i
 
 
 # 2.Write a program to take a string from the user and print the first 4 characters and last 4 characters using slicing.
 
-Capital_city = input("enter your Capital city:")        #input: Kathmandu
+# Capital_city = input("enter your Capital city:")        #input: Kathmandu
 
-print(Capital_city[0:4])            #output: Kath
-print(Capital_city[5::])            #output: andu
+# print(Capital_city[0:4])            #output: Kath
+# print(Capital_city[5::])            #output: andu
 
 
 

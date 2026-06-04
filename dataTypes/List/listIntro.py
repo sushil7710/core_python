@@ -21,26 +21,26 @@ list(data_type)
 ===========property check============
 """
 #===========(1). mutuability check============
-#example:1
-list= ["apple", "orange"]          
-list[0] = "papaya" 
+# #example:1
+# list= ["apple", "orange"]          
+# list[0] = "papaya" 
 
-print(list)         #output: ['papaya', 'orange']    
-
-
-#example:2
-list= ["apple", "orange"]                     
-list.insert(0,10)
-
-print(list)             #output: [10, 'apple', 'orange']
+# print(list)         #output: ['papaya', 'orange']    
 
 
-#example:3
-list= ["apple", "orange"]         
-list[0] = "papaya"             
-list.insert(0,10)            
+# #example:2
+# list= ["apple", "orange"]                     
+# list.insert(0,10)
 
-print(list)             #output: [10, 'papaya', 'orange']
+# print(list)             #output: [10, 'apple', 'orange']
+
+
+# #example:3
+# list= ["apple", "orange"]         
+# list[0] = "papaya"             
+# list.insert(0,10)            
+
+# print(list)             #output: [10, 'papaya', 'orange']
 
 
 #===============duplication allow=============

@@ -111,8 +111,8 @@
 # list is a sequencial data types  which is mutable(changeable), and in ordered
 # list can be always  written in [] in python
 # fruits=["apple","banana","orange","papaya"]
-number=[45,1,50.56,65,56,78,98,1,2]
-number.append(9)
+# number=[45,1,50.56,65,56,78,98,1,2]
+# number.append(9)
 # number.insert(2, "ram")
 # number.insert(0, 49)
 # print(fruits)
@@ -122,7 +122,7 @@ number.append(9)
 # fruits.insert(0,1)
 # print(fruits)
 # print(type(fruits))
-print(number)
+# print(number)
 # print(type(number))
 
 

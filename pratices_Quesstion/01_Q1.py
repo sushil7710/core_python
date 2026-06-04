@@ -537,10 +537,10 @@ Write a program that:
 Takes password input
 Removes spaces using strip()
 Checks if password was changed after removing spaces
-"""
-password = input("enter the password: ")
+# """
+# password = input("enter the password: ")
 
-result = 
+# result = 
 
 
 
@@ -634,10 +634,70 @@ Result: python
 # print("after removing prefix and suffix:",result)       #output: python
 
 
-a = 5
+# a = 5
 
-b = 3 
+# b = 3 
+
+"""
+(Q.5) Insert 15 at index 2 and 25 at index 0 in the list:
+num_list4 = [5, 10, 20, 30]
+"""
+
+# num_list = [5, 10, 20, 30]
+# num_list.insert(2, 15 )
+# num_list.insert(0,25)
+
+# print(num_list)
 
 
+"""
+Q.6) append 50 and 60 to the list
+num_list5 = [10, 20, 30]
+"""
+# num_list5 = [10, 20, 30]
+# num_list5.append(50)
+# num_list5.append(60)
+
+# print(num_list5)
 
 
+"""
+Q7 Append 5 and 15 to the list:
+num_list6 = [1, 2, 3]
+"""
+# num_list6 = [1, 2, 3]
+# num_list6.append(5)
+# num_list6.append(15)
+
+# print(num_list6)
+
+"""
+Q8 Append 100 and 200 to the list:
+num_list7 = [25, 50, 75]
+"""
+# num_list7 = [25, 50, 75]
+# num_list7.append(100)
+# num_list7.append(200)
+
+# print(num_list7)
+
+"""
+Q9 Append "Mango" and "Apple" to the list:
+fruits_list8 = ["Banana", "Orange"]
+"""
+
+# fruits_list8 = ["Banana", "Orange"]
+# fruits_list8.append("mango")
+# fruits_list8.append("Apple" )
+
+# print(fruits_list8)
+
+"""
+Q10 Append 999 and 888 to the list:
+num_list9 = [111, 222, 333]
+"""
+num_list9 = [111, 222, 333]
+num_list9.append(999)
+num_list9.append(888)
+
+print(num_list9)
