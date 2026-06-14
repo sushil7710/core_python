@@ -696,8 +696,231 @@ fruits_list8 = ["Banana", "Orange"]
 Q10 Append 999 and 888 to the list:
 num_list9 = [111, 222, 333]
 """
-num_list9 = [111, 222, 333]
-num_list9.append(999)
-num_list9.append(888)
+# num_list9 = [111, 222, 333]
+# num_list9.append(999)
+# num_list9.append(888)
 
-print(num_list9)
+# print(num_list9)
+
+
+
+"""
+1. ====================append()===================
+"""
+
+"""
+1. Create an empty list and append the number 10.
+"""
+# list = []
+
+# list.append(10)
+
+# print(list)
+
+
+
+
+"""
+2. Append 20 and 30 to the list [10].
+"""
+# list = [10]
+
+# list.append("20,30")
+# list.append(30)
+
+# print(list)
+
+
+
+"""
+3. Append "Python" to the list ["Java", "C++"].
+"""
+# list = ["Java", "C++"]
+# list.append("python")
+
+# print(list)
+
+
+
+
+"""
+4. Append the value 50 to [10, 20, 30, 40].
+"""
+numbers = [10, 20, 30, 40]
+numbers.append(50)
+
+print(numbers)          #output: [10, 20, 30, 40, 50]
+
+
+
+"""
+5. append to the list [4.5] to [1, 2, 3]
+"""
+# numbers1 = [1, 2, 3]
+# numbers2 = [4,5]
+# numbers1.append(numbers2)
+
+# print(numbers1)         #output: [1, 2, 3, [4, 5]]
+
+
+
+
+"""
+2. ====================insert()====================
+"""
+
+"""
+1. Insert 100 at index 0 in [10, 20, 30].
+""" 
+# list = [10, 20, 30]
+# list.insert(0,100)
+
+# print(list)         #output: [100, 10, 20, 30]
+
+
+
+"""
+2. Insert "Apple" at index 1 in ["Mango", "Orange"].
+"""
+# fruits = ["Mango" , "Orange"]
+# fruits.insert(1,"apple")
+
+# print(fruits)           #output: ['Mango', 'apple', 'Orange']
+
+
+
+"""
+3. Insert 50 before 60 in [20, 40, 60, 80].
+"""
+# numbers = [20, 40, 60, 80]
+# numbers.insert(2,50)
+
+# print(numbers)          #output: [20, 40, 50, 60, 80]
+
+
+
+
+"""
+4. Insert 999 at the end of [10, 20, 30].
+"""
+# numbers = [10, 20, 30]
+# numbers.insert(3,999)
+
+# print(numbers)          #output: [10, 20, 30, 999]
+
+
+
+"""
+5. Insert "Python" at index 2 in ["C", "Java", "C++"].
+"""
+# text = ["C", "Java", "C++"]
+# text.insert(2,"python")
+
+# print(text)             #output: ["C", "Java", "C++"]
+
+
+
+"""
+==================remove()====================
+"""
+
+"""
+1. Remove "red" from ["red", "blue", "green"]
+"""
+# colors = ["red", "blue", "green"]
+# colors.remove("red")
+
+# print(colors)           #output: ['blue', 'green']
+
+
+
+"""
+2. Remove the number 25 from [10, 25, 30, 40].
+"""
+# numbers = [10, 25, 30, 40]
+# numbers.remove(25)
+
+# print(numbers)          #output: [10, 30, 40]
+
+
+
+
+"""
+3. Remove the first occurrence of 10 from [10, 20, 10, 30].
+"""
+# numbers = [10, 20, 10, 30]
+# numbers.remove(10)
+
+# print(numbers)          #output: [20, 10, 30]
+
+
+
+"""
+4. Remove 40 from [10, 20, 30, 40, 50].
+"""
+# numbers = [10, 20, 30, 40, 50]
+# numbers.remove(40)
+
+# print(numbers)          #output: [10, 20, 30, 50]
+
+
+"""
+5. Remove "banana" from ["apple", "banana", "orange"].
+"""
+# fruits = ["apple", "banana", "orange"]
+# fruits.remove("banana")
+
+# print(fruits)           #output: ["apple", "banana", "orange"]
+
+
+
+
+
+"""
+4.=================== pop()========================
+"""
+
+"""
+1. Remove the last element from [1, 2, 3, 4]
+"""
+# numbers = [1, 2, 3, 4]
+# numbers.pop()
+
+# print(numbers)          #output: [1, 2, 3]
+
+
+
+"""
+2. Pop the element at index 2 from [10, 20, 30, 40].
+"""
+
+# numbers = [10, 20, 30, 40]
+# numbers.pop(2)
+
+# print(numbers)          #output: [10, 20, 40]
+
+
+
+
+"""
+4. Pop the first element from [100, 200, 300].
+"""
+# numbers = [100, 200, 300]
+# numbers.pop(0)
+
+# print(numbers)          #output: [200, 300]
+"""
+5. Pop the last two elements one by one from [1, 2, 3, 4, 5].
+"""
+# numbers =[1, 2, 3, 4, 5]
+# numbers.pop()
+# numbers.pop()
+
+# print(numbers)              #output: [1, 2, 3]
+
+
+
+
+"""
+
+"""

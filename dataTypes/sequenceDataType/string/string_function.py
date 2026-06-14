@@ -324,7 +324,7 @@ c) count():
           it count the total number of searched character inside the string.
 """
 
-#output: 1
+# output: 1
 # address = "savvvetrroojvv"
 # print(address.count("v"))
 # print(address.count("vv"))
